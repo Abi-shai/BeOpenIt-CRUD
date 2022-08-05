@@ -1,0 +1,14 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: helvetica;
+  background-color: rgb(35, 35, 35);
+}
+
+@font-face {
+  font-family: "heltiva";
+  src:
+    url('./assets/font/NimbusSanL-Bol.otf') format('opentype')
+    url('./assets/font/NimbusSanL-Reg.otf') format('opentype')
+}

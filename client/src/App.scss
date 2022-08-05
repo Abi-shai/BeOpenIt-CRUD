@@ -1,0 +1,23 @@
+.app{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 2em;
+  gap: 2em;
+
+  .getGameLine {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    width: 475px;
+    justify-content: flex-start;
+    font-family: helvetica;
+
+    .exclamation-point {
+      color: #EF9E00;
+    }
+  }
+}

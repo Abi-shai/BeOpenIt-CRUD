@@ -1,0 +1,15 @@
+{
+  "name": "beopenit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clientDevServer": "npm start --prefix client",
+    "clientBuild": "npm run build --prefix client",
+    "server": "go run main.go",
+    "install": "npm install --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
